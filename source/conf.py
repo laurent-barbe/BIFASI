@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -58,6 +58,6 @@ exclude_patterns = []
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
 
-import sphinx_rtd_theme
+
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
