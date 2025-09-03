@@ -1,2 +1,0 @@
-# BIFASI
-BIFASI Project
